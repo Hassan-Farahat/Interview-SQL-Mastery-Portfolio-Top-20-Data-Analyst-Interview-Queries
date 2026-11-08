@@ -17,31 +17,6 @@ Designed specifically to prepare for technical data analytics interviews, this p
 
 [Departments] ──< [Employees]
 [Customers]   ──< [Orders] ──< [OrderItems] >── [Products]
-```markdown
-# Interview-SQL-Mastery Portfolio: Top 20 Data Analyst Interview Queries
-
-A curated, production-ready T-SQL portfolio project built for Microsoft SQL Server (SSMS). This repository features **20 essential, high-impact SQL queries** frequently tested in data analyst and business intelligence job interviews, backed by a fully-seeded relational practice database.
-
----
-
-## Project Overview & Purpose
-
-Designed specifically to prepare for technical data analytics interviews, this project provides a clean, self-contained environment to master core SQL concepts. Rather than dealing with overly complex enterprise clutter, it uses a streamlined schema and targeted queries to test critical data manipulation skills, including:
-* Complex multi-table joins and aggregation patterns.
-* Window functions, ranking, and offset analytics (`LAG`).
-* Advanced problem-solving techniques like running totals, median calculations, and cohort tracking.
-
----
-
-## Relational Schema Models
-
-
-```
-
-[Departments] ──< [Employees]
-[Customers]   ──< [Orders] ──< [OrderItems] >── [Products]
-
-```
 
 * `Departments`: Organizational departments mapping internal personnel.
 * `Employees`: Staff records, departmental assignments, and salary metrics.
@@ -71,16 +46,8 @@ Designed specifically to prepare for technical data analytics interviews, this p
 
 ---
 
-## Suggested Project Folder Name
-
-* `Interview-SQL-Mastery`
-
----
-
 ## Getting Started
 
 1. Open **SQL Server Management Studio (SSMS)**.
 2. Run the complete script to automatically create the `InterviewMastery` database, seed the tables, and review the query library.
 3. Use the descriptive comments above each query block to test your own code before checking the provided solutions.
-
-```
